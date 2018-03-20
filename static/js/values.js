@@ -9,50 +9,50 @@ angular.module('tour.values', []).
 // List of modules with description and lessons in it.
 value('tableOfContents', [{
     'id': 'mechanics',
-    'title': 'Using the tour',
-    'description': '<p>Welcome to a tour of the <a href="https://golang.org">Go programming language</a>. The tour covers the most important features of the language, mainly:</p>',
+    'title': 'Używanie przewodnika',
+    'description': '<p>Witaj w przewodniku po <a href="https://golang.org">języku programowania Go</a>. Przewodnik obejmuje najważniejsze funkcje języka, przede wszystkim:</p>',
     'lessons': ['welcome']
 }, {
     'id': 'basics',
-    'title': 'Basics',
-    'description': '<p>The starting point, learn all the basics of the language.</p><p>Declaring variables, calling functions, and all the things you need to know before moving to the next lessons.</p>',
+    'title': 'Podstawy',
+    'description': '<p>Zacznij od nauczenia się podstaw jezyka.</p><p>Deklarowanie zmiennych, wywoływanie funkcji, oraz wszystkie inne rzeczy o których musisz się dowiedzieć, zanim przejdziesz do następnych lekcji.</p>',
     'lessons': ['basics', 'flowcontrol', 'moretypes']
 }, {
     'id': 'methods',
-    'title': 'Methods and interfaces',
-    'description': '<p>Learn how to define methods on types, how to declare interfaces, and how to put everything together.</p>',
+    'title': 'Metody i interfejsy',
+    'description': '<p>Nauczy się jak definiować metody do typów, jak deklarować interfejsy oraz jak połączyć to wszystko razem.</p>',
     'lessons': ['methods']
 }, {
     'id': 'concurrency',
-    'title': 'Concurrency',
-    'description': '<p>Go provides concurrency features as part of the core language.</p><p>This module goes over goroutines and channels, and how they are used to implement different concurrency patterns.</p>',
+    'title': 'Współbieżność',
+    'description': '<p>Go dostarcza funkcje współbieżności jako część języka.</p><p>Ten moduł opisuje goroutiny i kanały oraz pokazuje jak zaimplementować różne wzorce współbieżne.</p>',
     'lessons': ['concurrency']
 }]).
 
 // translation
 value('translation', {
-    'off': 'off',
-    'on': 'on',
-    'syntax': 'Syntax-Highlighting',
-    'lineno': 'Line-Numbers',
-    'reset': 'Reset Slide',
-    'format': 'Format Source Code',
-    'kill': 'Kill Program',
-    'run': 'Run',
-    'compile': 'Compile and Run',
-    'more': 'Options',
-    'toc': 'Table of Contents',
-    'prev': 'Previous',
-    'next': 'Next',
-    'waiting': 'Waiting for remote server...',
-    'errcomm': 'Error communicating with remote server.',
-    'submit-feedback': 'Send feedback about this page',
+    'off': 'wył.',
+    'on': 'wł.',
+    'syntax': 'Składna',
+    'lineno': 'Numerowanie',
+    'reset': 'Resetuj',
+    'format': 'Formatuj',
+    'kill': 'Zatrzymaj program',
+    'run': 'Uruchom',
+    'compile': 'Skompiluj i uruchom',
+    'more': 'Opcje',
+    'toc': 'Spis treści',
+    'prev': 'Poprzedni',
+    'next': 'Następny',
+    'waiting': 'Oczekiwanie na zdalny serwer...',
+    'errcomm': 'Błąd połączenia ze zdalnym serwerem.',
+    'submit-feedback': 'Wyślij opinie o tej stronie',
 
     // GitHub issue template: update repo and messaging when translating.
-    'github-repo': 'github.com/golang/tour',
-    'issue-title': 'tour: [REPLACE WITH SHORT DESCRIPTION]',
-    'issue-message': 'Change the title above to describe your issue and add your feedback here, including code if necessary',
-    'context': 'Context',
+    'github-repo': 'github.com/sin/go-tour-pl',
+    'issue-title': 'tour: [ZMIEŃ NA KRÓTKI OPIS]',
+    'issue-message': 'Zmień nagłówek powyżej, oraz opisz swój problem tutaj.',
+    'context': 'Kontekst',
 }).
 
 // Config for codemirror plugin
