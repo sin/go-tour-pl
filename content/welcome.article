@@ -1,4 +1,4 @@
-Witaj!
+Witaj w przewodniku!
 Dowiedz się jak używać tego przewodnika, jak nawigować pomiędzy lekcjami oraz jak uruchomić kod.
 
 Autorzy Go
@@ -60,7 +60,7 @@ Ten przewodnik dostępny jest w innych językach:
 - [[https://go-tour-ua.appspot.com/][Ukraiński — Українська]]
 - [[https://go-tour-uz.appspot.com/][Uzbecki — Ўзбекча]]
 
-Kliknij przycisk[[javascript:highlightAndClick(".next-page")][„dalej”]] lub wciśnij klawisz `PageDown` aby kontynuować.
+Kliknij przycisk [[javascript:highlightAndClick(".next-page")][„dalej”]] lub wciśnij klawisz `PageDown` aby kontynuować.
 
 #appengine: * Przejdź offline
 #appengine: 
@@ -99,7 +99,7 @@ Kliknij przycisk[[javascript:highlightAndClick(".next-page")][„dalej”]] lub 
 #appengine: 
 #appengine: - W piaskownicy czas zaczyna się od 2009-11-10 23:00:00 UTC (odkrycie znaczenia tej daty pozostawiamy czytelnikowi). dzięki temu programy są deterministyczne, co ułatwia przechowywanie ich w pamięci cache.
 #appengine: 
-#appengine: - są również limity na czas wykonania, ora zużycie procesora i pamięci. Program nie ma również dostepu do sieci.
+#appengine: - Nałożone są też limity na czas wykonania, oraz zużycie czasu procesora i pamięci. Program nie ma również dostepu do sieci.
 #appengine: 
 #appengine: Go Playground używa najnowszej stabilnej wersji Go.
 #appengine: 
